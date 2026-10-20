@@ -3,104 +3,246 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
+    top: 10%
     left: -10%
     width: 20%
   &-2
-    animation: float1 2.5s ease-in-out infinite alternate
+    animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: -10%
+    left: 80%
     width: 20%
-
-
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
+    left: 0%
+    width: 20%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 40% 
+  @media only screen and (min-width: 1024px)
+    margin-left: -60px
+  @media only screen and (max-width: 1023px)
+    width: 100%
+
 .banner-principal__img 
-  padding-bottom: 0 !important;
+  padding-bottom: 0 !important
 .banner-principal__row .banner-principal__img 
-    width: 33%;
-    
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+  width: 35%
 
-.boton *, .boton--sm *,
-.barra-avance__boton--regresar span
-  color: $white !important
-.banner-interno__titulo h1, .banner-interno__titulo h2, 
-.banner-interno__titulo h3, .banner-interno__titulo h4, 
-.banner-interno__titulo h5, .banner-interno__titulo h6
-  color: $color-sistema-texto !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
-figcaption 
-    font-weight: normal !important
+  color: white !important   
 
-.banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #0D4366
 
+.barra-avance__boton--regresar span 
+  color: white !important
 
-/**************************************************************/
-/***CUSTOM STYLES***/
-/**************************************************************/
-.p-full-width
-  padding: 3rem 3.5rem!important;
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+figcaption
+  font-weight: normal
 
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 10% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat
+      background-size: cover
+      background-position: center
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+      margin-bottom: 10% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
 
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #AD0D39 !important
 
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #AD0D39
+  background-color: #DE9EAF
 
-
-
-
-/**************************************************************/
-/*Media Queries*/  
-/**************************************************************/
-
-//// DESKTOP SMALL 1400--------------------------------------
-@media screen and (max-width: $bp-min-xxl)
-  .mb-cus
-    margin-bottom: 2em  !important 
-
-//// TABLET 992--------------------------------------
-@media screen and (max-width: $bp-max-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
-  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
-    width: 90% !important
-
+.cen
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  justify-content: center
   
- 
-  
-//// TABLET MINI 768--------------------------------------
-@media screen and (max-width: $bp-min-md)
-  .mb-cus
-    margin-bottom: 2em  !important  
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
 
-  
 
-//// MOBILE 576--------------------------------------
-@media screen and (max-width: $bp-min-sm)
-  .mb-cus
-    margin-bottom: 2em  !important
 
-  
- 
+
+
+.tit
+  background-color: #FCB908
+  border-radius: 50px
+  width: fit-content
+  padding: 9px 30px 9px 50px
+  position: relative
+  display: inline-flex
+  align-items: center
+  margin-left: 25px
+.tit img
+  width: 60px
+  height: 60px
+  position: absolute
+  top: 50%
+  left: -25px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (max-width: 1023px)
+    top: 50%
+    width: 55px
+    height: 55px
+
+.bg1
+  background-color:#FEE39C
+  border-radius: 0 83px 0 0
+  min-height: 328.12px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+    border-radius: 0px
+  @media only screen and (min-width: 1024px) 
+    margin-left: -1.6rem
+
+.bg2
+  background-color: #FCF1C7
+  min-height: 226px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -3.4rem
+.mt1
+  margin-top: 31.9px
+
+.acordion__accion__btn--a
+  background-color: #7D255E
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #A6DCFF
+  h3
+    color: black
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: white
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #7D255E
+  i
+    color: white !important
+.activ
+  .acordion__activo 
+    background-color: #FFF8E5 !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+
+.tabla-a th
+  border-color: #A6DCFF
+.tabla-a
+  thead 
+    border-top: 6px solid #22A9FF
+    color: black
+    background-color: #A6DCFF
+  table
+    width: 100%
+    table-layout: auto
+  th, td
+    overflow-wrap: break-word
+    white-space: normal
+    vertical-align: top
+    text-align: left
+  th
+    padding: 16px 15px
+    text-align: left
+  td 
+    padding: 15px 15px
+  tbody td:first-child
+    font-weight: bold
+
+  &.tab1
+    th:nth-child(1)
+      width: 18%
+    th:nth-child(2)
+      width: 41%
+    th:nth-child(3)
+      width: 41%
+
+  &.tab3
+    thead 
+      border-top: none
+    th, td
+      border: none
+      vertical-align: middle
+    tbody td:first-child
+      border-right: 2.9px solid #AFAFAF
+    th:nth-child(1)
+      width: 20%
+    th:nth-child(2)
+      width: 80%
+
+
+
+
+
+.bgr
+  background-color: #F6F6F6
+
+.bgw
+  background-color: white
