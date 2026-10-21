@@ -7,7 +7,7 @@
         span 1
       h1 Estrategia de construcción de marca territorial con enfoque OVOP
       
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/1.svg')
       .col-lg-11.col-md-10
@@ -57,13 +57,13 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Ejes estratégicos de la metodología de marca OVOP
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/3.png')
       .col-lg-7
         p.mb-0 Los ejes estratégicos de la metodología OVOP son áreas clave que orientan el desarrollo territorial, productivo y comunitario. Estructuran acciones para fortalecer la marca territorial en identidad, calidad, experiencia, articulación y sostenibilidad. Funcionan de manera integrada, convirtiendo los tesoros locales en oportunidades de bienestar y competitividad, y permiten construir marcas auténticas y participativas que reflejan lo que el territorio es y lo que aspira a ser.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 2.
@@ -101,7 +101,7 @@
                 td Tejer redes interinstitucionales y territoriales.
                 td Cooperación OVOP Japón–Colombia.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Tipos de marca territorial
 
@@ -117,7 +117,7 @@
             .bg2.mb-0.p-4
               p.mb-0.mx-lg-4 Cuando el territorio proyecta una imagen sólida y coherente, y los productos locales ofrecen calidad, autenticidad y una buena narrativa, ambos se fortalecen mutuamente, generando mayor reconocimiento, confianza y valor para la comunidad. 
 
-    p.mb-5 Según el documento estratégico de marca territorial, los cuatro tipos de marca territorial actúan como capas complementarias que coexisten e interactúan entre sí, dando lugar a una marca integral, coherente y dinámica. A continuación, encontrarás una descripción detallada de los cuatro tipos principales de marca que conforman este sistema.
+    p.mb-5(data-aos="fade-left") Según el documento estratégico de marca territorial, los cuatro tipos de marca territorial actúan como capas complementarias que coexisten e interactúan entre sí, dando lugar a una marca integral, coherente y dinámica. A continuación, encontrarás una descripción detallada de los cuatro tipos principales de marca que conforman este sistema.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -206,7 +206,6 @@
                     tr.bgr
                       td Interacción comunitaria
                       td Relación directa con los habitantes del territorio: guías locales, artesanos, productores, cocineras tradicionales y familias que comparten su cultura.
-
           .row.justify-content-center.align-items-center(titulo="Marca de cultura y medio ambiente")
             .col-lg-11
               p.mb-4 Este tipo de marca refleja lo más profundo y simbólico del territorio: su cultura, sus paisajes, sus memorias y sus formas de coexistir con la naturaleza. Se basa en:
@@ -236,11 +235,11 @@
                       td Biodiversidad
                       td Recursos naturales del territorio: bosques, ríos, fauna, flora, ecosistemas y servicios ambientales que aportan identidad y valor ecológico.
 
-    .tit.mb-5(data-aos="fade-right")
+    .tit.mb-5(data-aos="fade-left")
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Dos rutas de implementación de marca territorial: territorial y productiva
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-1.col-md-2.col-5.mb-lg-0.mb-4
         img(src='@/assets/curso/tema1/5.svg')
       .col-lg-11.col-md-10
@@ -280,10 +279,10 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema1/6.png')
       .col-lg-7
-        img.img-t.mb-3(src='@/assets/curso/tema1/7.svg')
+        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema1/7.svg')
         p.mb-0 La ruta de abordaje territorial permite organizar la construcción de la marca desde una perspectiva comunitaria, articulando los tesoros locales, los actores y el sueño colectivo con acciones orientadas a su consolidación y sostenibilidad. De manera complementaria, el enfoque OVOP contempla una ruta de abordaje productiva, dirigida a fortalecer las capacidades de productores, emprendedores y asociaciones, mediante la identificación de oportunidades, el desarrollo de productos y la generación de estrategias que favorezcan su posicionamiento y permanencia en el mercado.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 8.
@@ -312,9 +311,6 @@
                 td Continuidad
                 td Formalizar negocios, buscar certificaciones, fortalecer alianzas.
                 td Empresas locales sostenibles.
-
-
-
 
 
 </template>
