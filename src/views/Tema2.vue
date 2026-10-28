@@ -75,7 +75,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Cuando un territorio aprende a contar su historia"
-                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require_src('@/assets/actividad/audio/Podcast_CF2_42110173_Gestion_de_marca_territorial_bajo_el_enfoque_ovop_Colombia.mp3')"
               ).mb-0
                 p.mb-0 
 
