@@ -29,7 +29,7 @@
               .col-lg-11
                 .row.justify-content-center.align-items-center
                   .col-lg-6.mb-lg-0.mb-4
-                    h4.mb-4 Operacionalizar el sueño colectivo como visión de marca.
+                    h4.mb-4 Operacionalizar el sueño colectivo como visión de marca
                     p.mb-0 Traducir las aspiraciones compartidas de la comunidad en objetivos, estrategias y acciones concretas. La marca territorial debe expresar hacia dónde quiere avanzar el territorio y establecer una ruta que permita convertir esa visión de futuro en resultados alcanzables, medibles y con responsables definidos.
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema6/2.png")
@@ -37,7 +37,7 @@
               .col-lg-11
                 .row.justify-content-center.align-items-center
                   .col-lg-6.mb-lg-0.mb-4
-                    h4.mb-4 Fortalecer la gobernanza participativa de la marca.
+                    h4.mb-4 Fortalecer la gobernanza participativa de la marca
                     p.mb-0 Articular la participación de líderes comunitarios, productores, emprendedores, instituciones y actores de los sectores cultural, ambiental, social y económico, promoviendo la corresponsabilidad en la construcción, gestión, posicionamiento y protección de la marca territorial. En el enfoque OVOP, el comité local OVOP cumple un papel fundamental en la continuidad, legitimidad y definición de acuerdos para su gestión y uso.
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema6/3.png")
@@ -45,7 +45,7 @@
               .col-lg-11
                 .row.justify-content-center.align-items-center
                   .col-lg-6.mb-lg-0.mb-4
-                    h4.mb-4 Priorizar estrategias basadas en las capacidades y potencialidades locales.
+                    h4.mb-4 Priorizar estrategias basadas en las capacidades y potencialidades locales
                     p.mb-0 Orientar las acciones de la marca a partir de los recursos y fortalezas propias del territorio, como los tesoros locales, saberes, prácticas culturales, vocaciones productivas, redes comunitarias, patrimonio y activos simbólicos. Esto permite construir una propuesta diferenciada, auténtica y coherente con la identidad territorial.
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema6/4.png")
@@ -53,7 +53,7 @@
               .col-lg-11
                 .row.justify-content-center.align-items-center
                   .col-lg-6.mb-lg-0.mb-4
-                    h4.mb-4 Garantizar la sostenibilidad integral de la marca territorial.
+                    h4.mb-4 Garantizar la sostenibilidad integral de la marca territorial
                     p.mb-0 Incorporar criterios de sostenibilidad en las decisiones y estrategias de la marca, procurando su permanencia y contribución al desarrollo territorial. Esto comprende cuatro dimensiones: económica, mediante mercados, modelos de negocio y cadenas de valor; social, fortaleciendo identidad, cohesión, liderazgo y participación; cultural, preservando memoria, autenticidad y pertinencia identitaria; y ambiental, promoviendo el equilibrio ecológico y el uso responsable de los recursos del territorio.
                   .col-lg-6.col-md-8
                     img.mb-0(src="@/assets/curso/tema6/5.png")

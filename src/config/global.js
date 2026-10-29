@@ -124,7 +124,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/42110173_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -204,7 +204,7 @@ export default {
     {
       referencia:
         'Ancin A., I. (2018). Análisis sobre la elección de isotipos y logotipos en los procesos de comunicación de la marca. Revista Caribeña de Ciencias Sociales.',
-      link: 'https://www.eumed.net/rev/caribe/2018/05/isotipos-logotipos-marca.html',
+      link: '',
     },
     {
       referencia:
@@ -332,7 +332,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -342,12 +342,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

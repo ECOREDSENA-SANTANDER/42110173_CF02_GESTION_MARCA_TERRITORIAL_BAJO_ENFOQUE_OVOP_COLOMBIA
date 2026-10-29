@@ -108,7 +108,7 @@
         .tarjeta-numerada.color-primario.p-4.h-100.mb-0
           .tarjeta-numerada__numero
             .h2 1
-          p.mx-3.my-3 Alineación identidad–producto–mercado: los productos deben reflejar la esencia del territorio y responder a tendencias de mercado
+          p.mx-3.my-3 Alineación identidad–producto–mercado: los productos deben reflejar la esencia del territorio y responder a tendencias de mercado.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-4.h-100.mb-0
           .tarjeta-numerada__numero

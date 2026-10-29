@@ -214,8 +214,8 @@
           table
             thead
               tr
-                th El símbolo puede ser
-                th Características del símbolo bajo OVOP
+                th ¿Qué pueden representar?
+                th ¿Para qué sirve? 
             tbody
               tr
                 td
