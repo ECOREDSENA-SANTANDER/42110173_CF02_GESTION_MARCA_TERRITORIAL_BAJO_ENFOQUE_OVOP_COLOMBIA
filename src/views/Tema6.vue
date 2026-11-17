@@ -19,7 +19,7 @@
       img(:src="require_src('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Objetivos estratégicos de la planificación participativa
 
-    p.mb-5(data-aos="fade-right") La planificación participativa permite transformar la visión compartida del territorio en decisiones, estrategias y acciones construidas colectivamente. En el enfoque OVOP, este proceso fortalece la apropiación comunitaria de la marca territorial y orienta su gestión hacia el desarrollo sostenible .
+    p.mb-5(data-aos="fade-right") La planificación participativa permite transformar la visión compartida del territorio en decisiones, estrategias y acciones construidas colectivamente. En el enfoque OVOP, este proceso fortalece la apropiación comunitaria de la marca territorial y orienta su gestión hacia el desarrollo sostenible.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12

@@ -35,7 +35,7 @@
           .caja-img.mb-4
             img(src='@/assets/curso/tema5/2.svg')
           h4.mb-4.text-center Difusión identitaria
-          p.mb-0 Comunica los atributos únicos del territorio (paisaje, memoria, saberes, productos, prácticas) fortaleciendo el sentido de pertenencia interno y el posicionamiento externo.
+          p.mb-0 Comunica los atributos únicos del territorio (paisaje, memoria, saberes, productos, prácticas), fortaleciendo el sentido de pertenencia interno y el posicionamiento externo.
       .col-lg-3.col-md-6.mb-lg-0.mb-4
         .h-100.bg4.p-4
           .caja-img.mb-4
@@ -108,22 +108,26 @@
         .tarjeta-numerada.color-primario.p-4.h-100.mb-0
           .tarjeta-numerada__numero
             .h2 1
-          p.mx-3.my-3 Alineación identidad–producto–mercado: los productos deben reflejar la esencia del territorio y responder a tendencias de mercado.
+          p.mx-3.my-3 #[b Alineación identidad–producto–mercado.]
+          p.mx-3.my-3 Los productos deben reflejar la esencia del territorio y responder a tendencias de mercado.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-4.h-100.mb-0
           .tarjeta-numerada__numero
             .h2 2
-          p.mx-3.my-3 Diversificación de canales: ferias, tiendas ancla, tiendas antena, tiendas solidarias, mercados campesinos, plataformas digitales, puntos móviles, vitrinas sectoriales.
+          p.mx-3.my-3 #[b Diversificación de canales.]
+          p.mx-3.my-3 Ferias, tiendas ancla, tiendas antena, tiendas solidarias, mercados campesinos, plataformas digitales, puntos móviles, vitrinas sectoriales.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-4.h-100.mb-0
           .tarjeta-numerada__numero
             .h2 3
-          p.mx-3.my-3 Desarrollo de productos estrella: mejora de calidad, certificaciones, trazabilidad, innovación, empaques coherentes con la identidad territorial.
+          p.mx-3.my-3 #[b Desarrollo de productos estrella.]
+          p.mx-3.my-3 Mejora de calidad, certificaciones, trazabilidad, innovación, empaques coherentes con la identidad territorial.
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-4.h-100.mb-0
           .tarjeta-numerada__numero
             .h2 4
-          p.mx-3.my-3 Economías locales y asociatividad: articulación entre productores, asociaciones, cooperativas, emprendimientos y actores institucionales.
+          p.mx-3.my-3 #[b Economías locales y asociatividad.]
+          p.mx-3.my-3 Articulación entre productores, asociaciones, cooperativas, emprendimientos y actores institucionales.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5
